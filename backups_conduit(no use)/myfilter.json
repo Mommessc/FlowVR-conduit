@@ -1,0 +1,9 @@
+{
+	"inputs":{
+		"index":{"dtype":"uint32"},
+		"velocity":{"dtype":"float64"}
+	},
+	"outputs":{
+		"toto":{"dtype":"char8_str"}
+	}
+}

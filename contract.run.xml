@@ -1,0 +1,4 @@
+<commmands>
+  <run metamoduleid="gen">flowvr-run-ssh -v  ' localhost ' bin/generator 0</run>
+  <run metamoduleid="oddFilter">flowvr-run-ssh -v  ' localhost ' bin/oddFilter</run>
+</commmands>

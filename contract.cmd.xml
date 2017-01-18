@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<commands>
+  <dest>localhost</dest>
+  <addobject id="gen" class="flowvr.plugins.Regulator" />
+  <dest>localhost</dest>
+  <addobject id="oddFilter" class="flowvr.plugins.Regulator" />
+  <flush/>
+  <dest>localhost</dest>
+  <addroute id="com0">
+      <source id="gen" port="Oodd" messagetype="full" />
+      <action id="oddFilter" messagetype="full">
+          <port>genI</port>
+      </action>
+  </addroute>
+  <flush/>
+  <dest>localhost</dest>
+  <action id="gen">
+        <start />
+  </action>
+  <dest>localhost</dest>
+  <action id="oddFilter">
+        <start />
+  </action>
+  <flush/>
+</commands>

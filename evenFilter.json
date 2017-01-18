@@ -1,0 +1,5 @@
+{
+	"inputs":{
+		"even":{"dtype":"int32"}
+	}
+}

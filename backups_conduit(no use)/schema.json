@@ -1,0 +1,7 @@
+{
+  "field": 
+  {
+    "toto": {"dtype":"char8_str", "value":"tata"}
+  },
+  "numbers": {"dtype":"int32"}
+}

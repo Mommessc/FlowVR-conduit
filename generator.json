@@ -1,0 +1,6 @@
+{
+	"outputs":{
+		"odd":{"dtype":"int32"},
+		"even":{"dtype":"int32"}
+	}
+}

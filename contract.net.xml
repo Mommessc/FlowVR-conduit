@@ -1,0 +1,31 @@
+<network>
+
+      <module id="oddFilter" host="localhost">
+         <input>
+           <port id="genI" blockstate="blocking" />
+           <port id="beginIt" blockstate="blocking" />
+         </input>
+         <output>
+           <port id="endIt" />
+         </output>
+      </module>
+
+      <module id="gen" host="localhost">
+         <input>
+           <port id="beginIt" blockstate="blocking" />
+         </input>
+         <output>
+           <port id="endIt" />
+           <port id="Oodd" />
+         </output>
+      </module>
+  <connection id="dummy">
+        <source>
+            <moduleid id="gen" port="Oodd" />
+        </source>
+        <destination>
+            <moduleid id="oddFilter" port="genI" />
+        </destination>
+  </connection>
+        
+</network>

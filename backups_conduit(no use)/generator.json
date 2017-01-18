@@ -1,0 +1,7 @@
+{
+	"outputs":{
+		"index":{"dtype":"char"},
+		"temperature":{"dtype":"float64"},
+		"velocity":{"dtype":"float64"}
+	}
+}

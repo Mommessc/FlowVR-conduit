@@ -1,0 +1,8 @@
+{
+	"inputs":{
+		"odd":{"dtype":"int32"}
+	},
+	"outputs":{
+		"prime":{"dtype":"int32"}
+	}
+}
